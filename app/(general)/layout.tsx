@@ -8,7 +8,7 @@ export default function GeneralLayout({
   return (
     <>
     <Navbar />
-      <main className="flex flex-col items-center p-24">
+      <main className="flex min-h-screen flex-col items-center p-24">
         <span className="text-5xl">Hola mundo...</span>
         {children}
       </main>
